@@ -1,5 +1,5 @@
-- 👋 Hi, I’m robert  @Robertkiza0
-- 👀 I’m interested in cybersecurty most in cloud securtity, information gathering and osinter 
+- 👋 Hi, I’m robert kiza A.K.A  @Robertkiza0
+- 👀 I’m interested in cybersecurty most in cloud securtity, IT support and osinter 
 - 🌱 I’m currently learning python for data, aws archictetur
 
 - 📫 How to reach me ?  just drop a message here
