@@ -10,4 +10,4 @@
 🔍 Interests: OSINT, Threat Hunting, Cloud Security, Scripting
 💡 Let’s collaborate! Open to exciting cybersecurity & automation projects.
 
-📫 Reach out: [Your Email/Website/LinkedIn]
+📫 Reach out: robertkiza0@gmail.com
