@@ -1,12 +1,13 @@
-- 👋 Hi, I’m robert kiza A.K.A  @Robertkiza0
-- 👀 I’m interested in cybersecurty most in cloud securtity, IT support and osinter 
-- 🌱 I’m currently learning python for data, aws archictetur
 
-- 📫 How to reach me ?  just drop a message here
-- 😄 Pronouns: Mr
-  
+✨ Cybersecurity Enthusiast | OSINT | Automation | Python Dev ✨
 
-<!---
-Robertkiza0/Robertkiza0 is a ✨ special ✨ repository because its `README.md` (this file) appears on your GitHub profile.
-You can click the Preview link to take a look at your changes.
---->
+🎓 Bachelor’s in Cybersecurity | Google Cybersecurity Certified | Google Cloud Security Certified
+🛡️ Microsoft IT Support Specialist | Passionate about threat intelligence & defense
+🤖 Automation Lover – Building tools to make security smarter & faster
+🐍 Python Freelancer – Open to cybersecurity & automation projects
+🌱 Always Learning – Every day is a chance to grow in tech!
+
+🔍 Interests: OSINT, Threat Hunting, Cloud Security, Scripting
+💡 Let’s collaborate! Open to exciting cybersecurity & automation projects.
+
+📫 Reach out: [Your Email/Website/LinkedIn]
