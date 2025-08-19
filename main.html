@@ -1,0 +1,413 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Robert Kiza - Cybersecurity Professional</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+        body {
+            font-family: 'Inter', sans-serif;
+            @apply bg-slate-950 text-slate-200;
+        }
+
+        .spinner {
+            border: 4px solid rgba(255, 255, 255, 0.3);
+            border-top: 4px solid #3498db;
+            border-radius: 50%;
+            width: 24px;
+            height: 24px;
+            animation: spin 1s linear infinite;
+        }
+
+        @keyframes spin {
+            0% {
+                transform: rotate(0deg);
+            }
+            100% {
+                transform: rotate(360deg);
+            }
+        }
+    </style>
+</head>
+<body class="antialiased">
+
+    <!-- Main Container -->
+    <div class="container mx-auto px-4 py-8 max-w-4xl">
+
+        <!-- Header Section -->
+        <header class="text-center mb-10 border-b border-slate-700 pb-8">
+            <h1 class="text-4xl sm:text-5xl font-bold text-sky-400">Robert Kiza</h1>
+            <h2 class="text-xl sm:text-2xl mt-2 font-medium text-slate-300">Cybersecurity Professional</h2>
+            <div class="mt-4 text-sm sm:text-base text-slate-400 space-x-4">
+                <span>Daegu, South Korea</span>
+                <span>|</span>
+                <a href="mailto:robertkiza0@gmail.com" class="hover:text-sky-400 transition-colors">robertkiza0@gmail.com</a>
+                <span>|</span>
+                <a href="https://www.linkedin.com/in/your-linkedin" class="hover:text-sky-400 transition-colors">LinkedIn</a>
+                <span>|</span>
+                <a href="https://github.com/Robertkiza0" class="hover:text-sky-400 transition-colors">GitHub</a>
+            </div>
+        </header>
+
+        <!-- Summary Section -->
+        <section class="mb-10">
+            <h3 class="text-2xl font-semibold mb-4 text-sky-400">Professional Summary</h3>
+            <p class="text-slate-300 leading-relaxed">
+                A proactive and adaptable cybersecurity professional with a strong foundation in IT support and network administration, specializing in threat hunting and threat intelligence. With demonstrable hands-on experience in OSINT investigations and malware research, I possess a deep understanding of the threat landscape and TTP tracking. I am a self-driven learner with extensive certifications and a passion for developing automation tools and leading actionable threat intelligence production to proactively defend against evolving cyber threats.
+            </p>
+        </section>
+
+        <!-- Core Competencies Section -->
+        <section class="mb-10">
+            <h3 class="text-2xl font-semibold mb-4 text-sky-400">Core Competencies</h3>
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+                <!-- Competency Card -->
+                <div class="bg-slate-800 p-6 rounded-xl shadow-lg border border-slate-700">
+                    <h4 class="font-bold text-lg mb-2 text-sky-300">Threat Intelligence & Hunting</h4>
+                    <ul class="list-disc list-inside space-y-1 text-slate-400">
+                        <li>OSINT</li>
+                        <li>Malware TTP Tracking</li>
+                        <li>Actor Profiling</li>
+                        <li>Threat Intelligence Databases</li>
+                    </ul>
+                </div>
+                <!-- Competency Card -->
+                <div class="bg-slate-800 p-6 rounded-xl shadow-lg border border-slate-700">
+                    <h4 class="font-bold text-lg mb-2 text-sky-300">Technical Proficiency</h4>
+                    <ul class="list-disc list-inside space-y-1 text-slate-400">
+                        <li>Malware Analysis</li>
+                        <li>Reverse Engineering (Familiarity)</li>
+                        <li>Windows & Linux OS Internals</li>
+                        <li>TCP/IP Network Stack</li>
+                    </ul>
+                </div>
+                <!-- Competency Card -->
+                <div class="bg-slate-800 p-6 rounded-xl shadow-lg border border-slate-700">
+                    <h4 class="font-bold text-lg mb-2 text-sky-300">Tools & Technologies</h4>
+                    <ul class="list-disc list-inside space-y-1 text-slate-400">
+                        <li>Splunk, Maltego</li>
+                        <li>Wireshark, Suricata, Zeek (Learning)</li>
+                        <li>Google Workspace, Firewalls</li>
+                    </ul>
+                </div>
+                <!-- Competency Card -->
+                <div class="bg-slate-800 p-6 rounded-xl shadow-lg border border-slate-700">
+                    <h4 class="font-bold text-lg mb-2 text-sky-300">Cloud & DevOps</h4>
+                    <ul class="list-disc list-inside space-y-1 text-slate-400">
+                        <li>Google Cloud</li>
+                        <li>AWS</li>
+                        <li>Terraform</li>
+                        <li>Python</li>
+                    </ul>
+                </div>
+                <!-- New Competency Card for IT Support -->
+                <div class="bg-slate-800 p-6 rounded-xl shadow-lg border border-slate-700">
+                    <h4 class="font-bold text-lg mb-2 text-sky-300">IT Support</h4>
+                    <ul class="list-disc list-inside space-y-1 text-slate-400">
+                        <li>System Analysis & Maintenance</li>
+                        <li>Technical Diagnostics & Troubleshooting</li>
+                        <li>Software & Hardware Configuration</li>
+                        <li>Microsoft 365 Ecosystem</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+        <!-- Professional Experience Section -->
+        <section class="mb-10">
+            <h3 class="text-2xl font-semibold mb-6 text-sky-400">Professional Experience</h3>
+            <div class="space-y-8">
+                <!-- Job Entry -->
+                <div class="bg-slate-800 p-6 rounded-xl shadow-lg border border-slate-700">
+                    <div class="flex flex-col sm:flex-row justify-between mb-2">
+                        <h4 class="font-bold text-xl text-slate-100">IT Administrator</h4>
+                        <span class="text-slate-400 italic">Mar 2024 – Present, Goma</span>
+                    </div>
+                    <ul class="list-disc list-inside space-y-2 text-slate-300">
+                        <li>Oversaw administration of web platforms, ensuring the security and integrity of digital ecosystems.</li>
+                        <li>Maintained, expanded, and enriched the organization's digital presence and data pipelines.</li>
+                    </ul>
+                </div>
+                <!-- Job Entry -->
+                <div class="bg-slate-800 p-6 rounded-xl shadow-lg border border-slate-700">
+                    <div class="flex flex-col sm:flex-row justify-between mb-2">
+                        <h4 class="font-bold text-xl text-slate-100">OSINT Investigator</h4>
+                        <span class="text-slate-400 italic">Dec 2022 – Present, Online</span>
+                    </div>
+                    <ul class="list-disc list-inside space-y-2 text-slate-300">
+                        <li>Actively hunted for and identified emerging cyber threats through open-source intelligence.</li>
+                        <li>Conducted in-depth research by monitoring news, social media, and public databases.</li>
+                        <li>Utilized automated tools (e.g., web scrapers) to gather threat intelligence data.</li>
+                    </ul>
+                </div>
+                <!-- Job Entry -->
+                <div class="bg-slate-800 p-6 rounded-xl shadow-lg border border-slate-700">
+                    <div class="flex flex-col sm:flex-row justify-between mb-2">
+                        <h4 class="font-bold text-xl text-slate-100">IT Support Specialist</h4>
+                        <span class="text-slate-400 italic">Mar 2022 – Apr 2024, Bukavu, Democratic Republic of the Congo</span>
+                    </div>
+                    <ul class="list-disc list-inside space-y-2 text-slate-300">
+                        <li>Managed and maintained IT infrastructure, gaining a solid understanding of Windows and Linux operating systems.</li>
+                        <li>Implemented network security measures, including firewalls and antivirus software.</li>
+                        <li>Conducted security awareness training for staff on best practices.</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+        <!-- Technical Projects & Labs Section -->
+        <section class="mb-10">
+            <h3 class="text-2xl font-semibold mb-6 text-sky-400">Technical Projects & Labs</h3>
+            <div class="space-y-8">
+                <!-- Project Entry -->
+                <div class="bg-slate-800 p-6 rounded-xl shadow-lg border border-slate-700">
+                    <div class="flex flex-col sm:flex-row justify-between items-center mb-2">
+                        <h4 class="font-bold text-xl text-slate-100">Reverse Engineering</h4>
+                        <button class="mt-2 sm:mt-0 px-4 py-2 bg-sky-600 text-white rounded-lg hover:bg-sky-700 transition-colors generate-description-btn" data-project="Reverse Engineering">✨설명 생성</button>
+                    </div>
+                    <p class="text-slate-300 leading-relaxed project-description">
+                        Actively learning and gaining hands-on experience with tools like **IDA Pro** and **Ghidra** through online labs and personal projects to analyze malware.
+                    </p>
+                </div>
+                <!-- Project Entry -->
+                <div class="bg-slate-800 p-6 rounded-xl shadow-lg border border-slate-700">
+                    <div class="flex flex-col sm:flex-row justify-between items-center mb-2">
+                        <h4 class="font-bold text-xl text-slate-100">Automation Tools</h4>
+                        <button class="mt-2 sm:mt-0 px-4 py-2 bg-sky-600 text-white rounded-lg hover:bg-sky-700 transition-colors generate-description-btn" data-project="Automation Tools">✨설명 생성</button>
+                    </div>
+                    <p class="text-slate-300 leading-relaxed project-description">
+                        Developing custom scripts in **Python** for threat hunting and data enrichment to improve efficiency.
+                    </p>
+                </div>
+                <!-- Project Entry -->
+                <div class="bg-slate-800 p-6 rounded-xl shadow-lg border border-slate-700">
+                    <div class="flex flex-col sm:flex-row justify-between items-center mb-2">
+                        <h4 class="font-bold text-xl text-slate-100">Network Analysis</h4>
+                        <button class="mt-2 sm:mt-0 px-4 py-2 bg-sky-600 text-white rounded-lg hover:bg-sky-700 transition-colors generate-description-btn" data-project="Network Analysis">✨설명 생성</button>
+                    </div>
+                    <p class="text-slate-300 leading-relaxed project-description">
+                        Gaining proficiency with network analysis tools like **Wireshark**, **Suricata**, and **Zeek** to perform in-depth network packet analysis.
+                    </p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Google Cloud Labs Section -->
+        <section class="mb-10">
+            <h3 class="text-2xl font-semibold mb-6 text-sky-400">Google Cloud Labs</h3>
+            <div class="bg-slate-800 p-6 rounded-xl shadow-lg border border-slate-700">
+                <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+                    <div>
+                        <h4 class="font-bold text-lg mb-2 text-sky-300">Security</h4>
+                        <ul class="list-disc list-inside space-y-1 text-slate-400">
+                            <li>Respond and recover from a data breach</li>
+                            <li>Create symmetric and asymmetric keys</li>
+                            <li>Access a firewall and create a rule</li>
+                            <li>Examine alerts, logs, and rules with Suricata</li>
+                            <li>Analyze your first packet with Wireshark</li>
+                        </ul>
+                    </div>
+                    <div>
+                        <h4 class="font-bold text-lg mb-2 text-sky-300">Networking</h4>
+                        <ul class="list-disc list-inside space-y-1 text-slate-400">
+                            <li>Set Up Network and Application Load Balancers</li>
+                            <li>VPC Networks - Controlling Access</li>
+                            <li>Change firewall rules with Terraform & Cloud Shell</li>
+                        </ul>
+                    </div>
+                    <div>
+                        <h4 class="font-bold text-lg mb-2 text-sky-300">Cloud Infrastructure</h4>
+                        <ul class="list-disc list-inside space-y-1 text-slate-400">
+                            <li>Recover VMs with Google Backup and DR Service</li>
+                            <li>Google Kubernetes Engine: Qwik Start</li>
+                            <li>Cloud Storage: Qwik Start - CLI/SDK</li>
+                            <li>Pub/Sub: Qwik Start - Python</li>
+                        </ul>
+                    </div>
+                    <div>
+                        <h4 class="font-bold text-lg mb-2 text-sky-300">Data & ML</h4>
+                        <ul class="list-disc list-inside space-y-1 text-slate-400">
+                            <li>Predict Visitor Purchases with BigQuery ML</li>
+                            <li>Activity: Perform a SQL query</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Education & Certifications -->
+        <div class="grid grid-cols-1 lg:grid-cols-2 gap-8 mb-10">
+            <!-- Education Section -->
+            <section>
+                <h3 class="text-2xl font-semibold mb-4 text-sky-400">Education</h3>
+                <div class="bg-slate-800 p-6 rounded-xl shadow-lg border border-slate-700">
+                    <h4 class="font-bold text-xl text-slate-100">ISBAT University</h4>
+                    <p class="text-slate-400 italic mb-2">Bachelor of Science in Network and Cyber Security</p>
+                    <p class="text-slate-400">2017 – 2020</p>
+                </div>
+            </section>
+
+            <!-- Certifications Section -->
+            <section>
+                <h3 class="text-2xl font-semibold mb-4 text-sky-400">Certifications</h3>
+                <div class="bg-slate-800 p-6 rounded-xl shadow-lg border border-slate-700">
+                    <ul class="list-disc list-inside space-y-2 text-slate-300 cert-list">
+                        <li data-cert="Cybercrime Investigation">Cybercrime Investigation (Maltego Technologies) <button class="ml-2 px-2 py-1 text-xs bg-sky-600 text-white rounded-lg hover:bg-sky-700 transition-colors generate-cert-details-btn">✨자격증 세부 정보</button></li>
+                        <li data-cert="Open-source intelligence investigation">Open-source intelligence investigation (Basel Institute on Governance) <button class="ml-2 px-2 py-1 text-xs bg-sky-600 text-white rounded-lg hover:bg-sky-700 transition-colors generate-cert-details-btn">✨자격증 세부 정보</button></li>
+                        <li data-cert="Splunk Certifications SOC and cybersecurity defense">Splunk Certifications SOC and cybersecurity defense (Splunk) <button class="ml-2 px-2 py-1 text-xs bg-sky-600 text-white rounded-lg hover:bg-sky-700 transition-colors generate-cert-details-btn">✨자격증 세부 정보</button></li>
+                        <li data-cert="SC-200: Mitigate threats using Microsoft Security Copilot">SC-200: Mitigate threats using Microsoft Security Copilot (Microsoft) <button class="ml-2 px-2 py-1 text-xs bg-sky-600 text-white rounded-lg hover:bg-sky-700 transition-colors generate-cert-details-btn">✨자격증 세부 정보</button></li>
+                        <li data-cert="Microsoft IT Support Specialist Specialization">Microsoft IT Support Specialist Specialization (Microsoft) <button class="ml-2 px-2 py-1 text-xs bg-sky-600 text-white rounded-lg hover:bg-sky-700 transition-colors generate-cert-details-btn">✨자격증 세부 정보</button></li>
+                        <li data-cert="Google Cloud Cybersecurity Certificate">Google Cloud Cybersecurity Certificate (Google) <button class="ml-2 px-2 py-1 text-xs bg-sky-600 text-white rounded-lg hover:bg-sky-700 transition-colors generate-cert-details-btn">✨자격증 세부 정보</button></li>
+                        <li data-cert="Google Cloud Machine Learning & AI Specialization">Google Cloud Machine Learning & AI Specialization (Google) <button class="ml-2 px-2 py-1 text-xs bg-sky-600 text-white rounded-lg hover:bg-sky-700 transition-colors generate-cert-details-btn">✨자격증 세부 정보</button></li>
+                        <li data-cert="AWS Cloud Practitioner Essentials">AWS Cloud Practitioner Essentials (Amazon Web Services) <button class="ml-2 px-2 py-1 text-xs bg-sky-600 text-white rounded-lg hover:bg-sky-700 transition-colors generate-cert-details-btn">✨자격증 세부 정보</button></li>
+                        <li data-cert="Cybersecurity Operations Fundamentals Specialization">Cybersecurity Operations Fundamentals Specialization (Cisco Networking Academy) <button class="ml-2 px-2 py-1 text-xs bg-sky-600 text-white rounded-lg hover:bg-sky-700 transition-colors generate-cert-details-btn">✨자격증 세부 정보</button></li>
+                        <li data-cert="Applied ChatGPT for Cybersecurity">Applied ChatGPT for Cybersecurity (Infosec) <button class="ml-2 px-2 py-1 text-xs bg-sky-600 text-white rounded-lg hover:bg-sky-700 transition-colors generate-cert-details-btn">✨자격증 세부 정보</button></li>
+                        <li data-cert="Associate of (ISC)²">Associate of (ISC)² ((ISC)²) <button class="ml-2 px-2 py-1 text-xs bg-sky-600 text-white rounded-lg hover:bg-sky-700 transition-colors generate-cert-details-btn">✨자격증 세부 정보</button></li>
+                    </ul>
+                </div>
+            </section>
+        </div>
+
+        <!-- Languages Section -->
+        <section class="mb-10">
+            <h3 class="text-2xl font-semibold mb-4 text-sky-400">Languages</h3>
+            <div class="bg-slate-800 p-6 rounded-xl shadow-lg border border-slate-700">
+                <ul class="list-disc list-inside space-y-2 text-slate-300">
+                    <li><span class="font-medium text-slate-100">French:</span> Professional working proficiency</li>
+                    <li><span class="font-medium text-slate-100">English:</span> Professional working proficiency</li>
+                    <li><span class="font-medium text-slate-100">Swahili:</span> Native proficiency</li>
+                    <li><span class="font-medium text-slate-100">Korean:</span> Level 1 proficiency</li>
+                </ul>
+            </div>
+        </section>
+
+        <!-- Footer -->
+        <footer class="text-center pt-8 mt-10 border-t border-slate-700 text-slate-500 text-sm">
+            <p>&copy; 2025 Robert Kiza. All rights reserved.</p>
+        </footer>
+
+    </div>
+
+    <script>
+        document.addEventListener('DOMContentLoaded', () => {
+            const projectButtons = document.querySelectorAll('.generate-description-btn');
+            const certButtons = document.querySelectorAll('.generate-cert-details-btn');
+
+            async function generateText(prompt) {
+                const apiKey = ""; // Canvas will provide this in runtime
+                const apiUrl = `https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash-preview-05-20:generateContent?key=${apiKey}`;
+
+                const payload = {
+                    contents: [{
+                        parts: [{
+                            text: prompt
+                        }]
+                    }]
+                };
+
+                let response;
+                let retryCount = 0;
+                const maxRetries = 5;
+
+                while (retryCount < maxRetries) {
+                    try {
+                        response = await fetch(apiUrl, {
+                            method: 'POST',
+                            headers: {
+                                'Content-Type': 'application/json'
+                            },
+                            body: JSON.stringify(payload)
+                        });
+
+                        if (response.status === 429) {
+                            const delay = Math.pow(2, retryCount) * 1000 + Math.random() * 1000;
+                            console.log(`Rate limit exceeded. Retrying in ${delay / 1000} seconds...`);
+                            await new Promise(resolve => setTimeout(resolve, delay));
+                            retryCount++;
+                            continue;
+                        }
+
+                        if (!response.ok) {
+                            throw new Error(`HTTP error! status: ${response.status}`);
+                        }
+
+                        const result = await response.json();
+                        if (result.candidates && result.candidates.length > 0 &&
+                            result.candidates[0].content && result.candidates[0].content.parts &&
+                            result.candidates[0].content.parts.length > 0) {
+                            return result.candidates[0].content.parts[0].text;
+                        } else {
+                            throw new Error("Invalid response structure from API.");
+                        }
+                    } catch (error) {
+                        console.error('API call failed:', error);
+                        return "요청을 처리하는 중에 오류가 발생했습니다.";
+                    }
+                }
+                return "API 호출 시도 횟수가 초과되었습니다. 나중에 다시 시도해주세요.";
+            }
+
+            // Project description generation logic
+            projectButtons.forEach(button => {
+                button.addEventListener('click', async () => {
+                    const projectTitle = button.getAttribute('data-project');
+                    const projectDescriptionElement = button.parentElement.nextElementSibling;
+                    const originalDescription = projectDescriptionElement.innerText;
+                    
+                    projectDescriptionElement.innerHTML = `<div class="spinner"></div>`;
+                    button.disabled = true;
+
+                    const prompt = `Act as a professional cybersecurity portfolio assistant. Generate a professional and concise description for the following technical project, highlighting its relevance to cybersecurity and technical skills. Do not use markdown formatting.
+                    
+                    Project Title: ${projectTitle}
+                    
+                    Existing details: ${originalDescription}
+                    
+                    New, professional description:`;
+
+                    const newDescription = await generateText(prompt);
+                    projectDescriptionElement.innerHTML = newDescription;
+                    button.disabled = false;
+                });
+            });
+
+            // Certificate details generation logic
+            certButtons.forEach(button => {
+                button.addEventListener('click', async () => {
+                    const certName = button.parentElement.getAttribute('data-cert');
+                    const liElement = button.parentElement;
+
+                    // Remove existing detailed description if it exists
+                    const existingDetails = liElement.querySelector('.cert-details');
+                    if (existingDetails) {
+                        existingDetails.remove();
+                        return; // Exit the function after collapsing
+                    }
+                    
+                    const spinnerDiv = document.createElement('div');
+                    spinnerDiv.className = 'spinner mt-2';
+                    liElement.appendChild(spinnerDiv);
+                    button.disabled = true;
+
+                    const prompt = `Act as a professional cybersecurity portfolio assistant. Provide a brief, professional summary of the following certification. Focus on the core skills and knowledge it validates. Use concise, professional language.
+                    
+                    Certification Name: ${certName}
+                    
+                    Summary:`;
+                    
+                    const details = await generateText(prompt);
+
+                    // Create and append the new detailed description
+                    const detailsElement = document.createElement('div');
+                    detailsElement.className = 'cert-details mt-2 p-3 bg-slate-700 rounded-lg shadow-inner text-sm';
+                    detailsElement.textContent = details;
+                    liElement.appendChild(detailsElement);
+
+                    spinnerDiv.remove();
+                    button.disabled = false;
+                });
+            });
