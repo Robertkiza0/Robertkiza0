@@ -1,13 +1,5 @@
 
-✨ Cybersecurity Enthusiast | OSINT | Automation | Python Dev ✨
-
-🎓 Bachelor’s in Cybersecurity | Google Cybersecurity Certified | Google Cloud Security Certified
-🛡️ Microsoft IT Support Specialist | Passionate about threat intelligence & defense
-🤖 Automation Lover – Building tools to make security smarter & faster
-🐍 Python Freelancer – Open to cybersecurity & automation projects
-🌱 Always Learning – Every day is a chance to grow in tech!
-
-🔍 Interests: OSINT, Threat Hunting, Cloud Security, Scripting
-💡 Let’s collaborate! Open to exciting cybersecurity & automation projects.
+🚀 Hello, I’m Lungwe Kiza Robert
+I am a technologist driven by the challenge of securing the future while building it. My expertise spans across Cybersecurity, Cloud Infrastructure, and Autonomous AI, allowing me to build systems that are as resilient as they are intelligent.
 
 📫 Reach out: robertkiza0@gmail.com
